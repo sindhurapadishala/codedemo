@@ -18,7 +18,7 @@ import java.util.List;
         urlPatterns = "/SelectLiquor"
 )
 public class SelectLiquorServlet extends HttpServlet {
-
+    private static final long serialVersionUID = 1L;
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
